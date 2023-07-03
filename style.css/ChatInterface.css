@@ -1,0 +1,17 @@
+.chatInterfaceContainer {
+  display: flex;
+  height: 100vh;
+}
+.chatInterfaceContainer .sideBar {
+  flex: 1;
+  background-color: #ece5dd;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .chatInterfaceContainer .sideBar {
+    display: none;
+  }
+}
+.chatInterfaceContainer .chatApp {
+  flex: 4;
+}/*# sourceMappingURL=ChatInterface.css.map */

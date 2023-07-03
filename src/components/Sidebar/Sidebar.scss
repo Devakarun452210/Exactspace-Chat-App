@@ -1,0 +1,36 @@
+.sidebarContainer {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      cursor: pointer;
+    }
+  }
+
+  .searchContainer {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fff;
+
+    input {
+      padding: 5px 10px;
+      border: none;
+      width: 100%;
+      outline: none;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    i {
+      padding: 10px;
+    }
+  }
+
+  .users {
+    margin-top: 30px;
+  }
+}

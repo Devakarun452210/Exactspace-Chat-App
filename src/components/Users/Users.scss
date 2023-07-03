@@ -1,0 +1,64 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dfd8d1;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .userDp {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .msg {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 6px;
+      .username {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .lastMsg {
+        font-size: 12px;
+        color: gray;
+      }
+    }
+  }
+  .right {
+    .newMsg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+
+      .time {
+        font-size: 12px;
+        font-weight: 600;
+        color: #00565a;
+      }
+      .msgCount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #00565a;
+        padding: 2px 7px;
+        color: #fff;
+        border-radius: 50%;
+      }
+    }
+  }
+}
